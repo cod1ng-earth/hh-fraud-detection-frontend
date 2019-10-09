@@ -1,25 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { Grommet, Box, Heading, Grid } from 'grommet'
+import Sidebar from './components/sidebar';
+import AppHeader from './components/appheader'
+
+import FormPage from './pages/form'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Grommet style={{ "height": "100vh" }}>
+
+      <AppHeader></AppHeader>
+      <Box direction="row" fill="vertical">
+        <Sidebar ></Sidebar>
+        <Box justify="between" overflow="auto" wrap={false}>
+          <Heading size="xsmall" margin={{ "horizontal": "large", "vertical": "small" }}>
+            Lets enter data
+          </Heading>
+          <Box flex="grow">
+            <Grid columns="small" gap="medium" margin={{ "horizontal": "large", "vertical": "medium" }}>
+              <FormPage></FormPage>
+            </Grid>
+          </Box>
+        </Box>
+      </Box>
+    </Grommet>
   );
 }
 

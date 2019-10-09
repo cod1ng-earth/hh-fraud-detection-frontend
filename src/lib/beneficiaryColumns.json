@@ -1,0 +1,138 @@
+{
+    "BeneID": {
+        "type": "TextInput",
+        "props": {
+            "placeholder": "abc"
+        }
+    },
+    "DOB": {
+        "type": "TextInput",
+        "props": {
+            "placeholder": "abc"
+        }
+    },
+    "DOD": {
+        "type": "TextInput",
+        "props": {
+            "placeholder": "abc"
+        }
+    },
+    "Gender": {
+        "type": "RadioButtonGroup",
+        "props": {
+            "options": [
+                "1",
+                "2"
+            ]
+        }
+    },
+    "Race": {
+        "type": "RadioButtonGroup",
+        "props": {
+            "options": [
+                "1",
+                "2",
+                "3",
+                "5"
+            ]
+        }
+    },
+    "RenalDiseaseIndicator": {
+        "type": "TextInput",
+        "props": {
+            "placeholder": "abc"
+        }
+    },
+    "State": {
+        "type": "TextInput",
+        "props": {
+            "placeholder": "abc"
+        }
+    },
+    "County": {
+        "type": "TextInput",
+        "props": {
+            "placeholder": "abc"
+        }
+    },
+    "NoOfMonths_PartACov": {
+        "type": "TextInput",
+        "props": {
+            "placeholder": "abc"
+        }
+    },
+    "NoOfMonths_PartBCov": {
+        "type": "TextInput",
+        "props": {
+            "placeholder": "abc"
+        }
+    },
+    "ChronicCond_Alzheimer": {
+        "type": "Checkbox",
+        "props": {}
+    },
+    "ChronicCond_Heartfailure": {
+        "type": "Checkbox",
+        "props": {}
+    },
+    "ChronicCond_KidneyDisease": {
+        "type": "Checkbox",
+        "props": {}
+    },
+    "ChronicCond_Cancer": {
+        "type": "Checkbox",
+        "props": {}
+    },
+    "ChronicCond_ObstrPulmonary": {
+        "type": "Checkbox",
+        "props": {}
+    },
+    "ChronicCond_Depression": {
+        "type": "Checkbox",
+        "props": {}
+    },
+    "ChronicCond_Diabetes": {
+        "type": "Checkbox",
+        "props": {}
+    },
+    "ChronicCond_IschemicHeart": {
+        "type": "Checkbox",
+        "props": {}
+    },
+    "ChronicCond_Osteoporasis": {
+        "type": "Checkbox",
+        "props": {}
+    },
+    "ChronicCond_rheumatoidarthritis": {
+        "type": "Checkbox",
+        "props": {}
+    },
+    "ChronicCond_stroke": {
+        "type": "Checkbox",
+        "props": {}
+    },
+    "IPAnnualReimbursementAmt": {
+        "type": "TextInput",
+        "props": {
+            "placeholder": "abc"
+        }
+    },
+    "IPAnnualDeductibleAmt": {
+        "type": "TextInput",
+        "props": {
+            "placeholder": "abc"
+        }
+    },
+    "OPAnnualReimbursementAmt": {
+        "type": "TextInput",
+        "props": {
+            "placeholder": "abc"
+        }
+    },
+    "OPAnnualDeductibleAmt": {
+        "type": "TextInput",
+        "props": {
+            "placeholder": "abc"
+        }
+    }
+}
