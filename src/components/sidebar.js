@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Grid, Button, Text, Menu } from 'grommet'
-import { Home, User } from 'grommet-icons'
+import { Home, StatusCritical } from 'grommet-icons'
 
 import API from "../lib/api";
 
@@ -34,10 +34,12 @@ export default class Sidebar extends React.Component {
 
                     {this.state.providers.map(p => (
                         <Button hoverIndicator={true} key={p.Provider} onClick={() => this.props.selected(p)}>
-                            <Box pad={{ "horizontal": "medium", "vertical": "small" }}>
+                            <Box pad={{ "horizontal": "medium", "vertical": "small" }} direction="row">
+                                {p.PotentialFraud === 'Yes' ? <StatusCritical /> : ''}
                                 <Text size="large" >
                                     {p.Provider}
                                 </Text>
+
                             </Box>
                         </Button>
                     ))}
